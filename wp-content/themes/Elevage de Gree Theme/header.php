@@ -38,8 +38,12 @@
         </div>
         <div class="row">
             <!--Description du blog -->
-        <span class="description">
-            <?php bloginfo('description'); ?>
-        </span>
+            <span class="description">
+                <?php bloginfo('description'); ?>
+            </span>
+        </div>
+        <div class="row">
+            <!--Image en-tête-->
+            <img class="image_principale" src="<?php echo( get_header_image() ); ?>">
         </div>
     </header>

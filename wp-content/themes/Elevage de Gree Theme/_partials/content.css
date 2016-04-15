@@ -2,7 +2,7 @@
 Error: Undefined variable: "$grey".
         on line 7 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/content.scss
 
-2:     max-width: 1200px;
+2:     //max-width: 1240px;
 3:     margin: 0 auto;
 4:     .main_content {
 5:         margin: 0 auto;
@@ -89,4 +89,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 7 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/content.scss\A \A 2:     max-width: 1200px;\A 3:     margin: 0 auto;\A 4:     .main_content {\A 5:         margin: 0 auto;\A 6:         .content {\A 7:             color: $grey;\A 8:             padding: 35px;\A 9:             font-size: 20px;\A 10:             line-height: 21px;\A 11:             width: 75%;\A 12:             span {"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 7 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/content.scss\A \A 2:     //max-width: 1240px;\A 3:     margin: 0 auto;\A 4:     .main_content {\A 5:         margin: 0 auto;\A 6:         .content {\A 7:             color: $grey;\A 8:             padding: 35px;\A 9:             font-size: 20px;\A 10:             line-height: 21px;\A 11:             width: 75%;\A 12:             span {"; }

@@ -159,6 +159,11 @@ header .description {
   display: block;
   color: #fff;
 }
+/* line 50, sass/_partials/header.scss */
+header .image_principale {
+  opacity: 0.8;
+  padding-top: 25px;
+}
 
 /* line 1, sass/_partials/footer.scss */
 footer {
@@ -167,7 +172,6 @@ footer {
 
 /* line 1, sass/_partials/content.scss */
 .content_page {
-  max-width: 1200px;
   margin: 0 auto;
 }
 /* line 4, sass/_partials/content.scss */

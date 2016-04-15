@@ -1,6 +1,6 @@
 <?php
 /** Enable W3 Total Cache Edge Mode */
-define('WP_CACHE', true); //Added by WP-Cache Manager
+//define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', 'C:\UwAmp\www\elevage-de-gree\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
 
