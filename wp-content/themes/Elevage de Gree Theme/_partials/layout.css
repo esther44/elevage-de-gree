@@ -1,32 +1,23 @@
 /*
-Error: Undefined variable: "$white".
-        on line 4 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss
+Error: Undefined variable: "$dark-grey".
+        on line 2 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss
 
 1: body {
-2:     background: #15110C !important;
+2:     background: $dark-grey !important;
 3:     #content {
-4:         background: $white;
-5:         position: relative;
-6:         @include contentboxshadow-grey();
-7:     }
-8: }
+4:         position: relative;
+5:     }
+6: }
 
 Backtrace:
-C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss:4
+C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss:2
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -75,4 +66,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 4 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss\A \A 1: body {\A 2:     background: #15110C !important;\A 3:     #content {\A 4:         background: $white;\A 5:         position: relative;\A 6:         @include contentboxshadow-grey();\A 7:     }\A 8: }"; }
+  content: "Error: Undefined variable: \"$dark-grey\".\A         on line 2 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss\A \A 1: body {\A 2:     background: $dark-grey !important;\A 3:     #content {\A 4:         position: relative;\A 5:     }\A 6: }"; }
