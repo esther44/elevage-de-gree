@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$orange".
-        on line 16 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss
+        on line 11 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss
 
-11:             background: #eeeef3;
-12:             margin: 0 0 30px;
-13:             border-radius: 5px;
-14:             .widgettitle {
-15:                 font-size: 27px;
-16:                 color: $orange;
-17: 
-18:             }
-19:             ul {
-20:                 li {
-21:                     font-size: 18px;
+6:             background: #eeeef3;
+7:             margin: 0 0 30px;
+8:             border-radius: 5px;
+9:             .widgettitle {
+10:                 font-size: 27px;
+11:                 color: $orange;
+12: 
+13:             }
+14:             ul {
+15:                 li {
+16:                     font-size: 18px;
 
 Backtrace:
-C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss:16
+C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss:11
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -100,4 +100,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 16 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss\A \A 11:             background: #eeeef3;\A 12:             margin: 0 0 30px;\A 13:             border-radius: 5px;\A 14:             .widgettitle {\A 15:                 font-size: 27px;\A 16:                 color: $orange;\A 17: \A 18:             }\A 19:             ul {\A 20:                 li {\A 21:                     font-size: 18px;"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 11 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss\A \A 6:             background: #eeeef3;\A 7:             margin: 0 0 30px;\A 8:             border-radius: 5px;\A 9:             .widgettitle {\A 10:                 font-size: 27px;\A 11:                 color: $orange;\A 12: \A 13:             }\A 14:             ul {\A 15:                 li {\A 16:                     font-size: 18px;"; }

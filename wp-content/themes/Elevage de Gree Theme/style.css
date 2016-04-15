@@ -79,11 +79,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url(../../fonts/SweetlyBroken.ttf);
   font-weight: normal;
 }
-/* line 1, sass/_partials/_layout.scss */
+/* line 1, sass/_partials/layout.scss */
 body {
   background: #15110C !important;
 }
-/* line 3, sass/_partials/_layout.scss */
+/* line 3, sass/_partials/layout.scss */
 body #content {
   background: #fff;
   position: relative;
@@ -162,13 +162,7 @@ header .description {
 
 /* line 1, sass/_partials/footer.scss */
 footer {
-  clear: both;
   text-align: center;
-  padding: 20px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  right: 0;
 }
 
 /* line 1, sass/_partials/content.scss */
@@ -196,46 +190,42 @@ footer {
 }
 
 /* line 21, sass/_partials/content.scss */
-section {
+.content {
+  max-width: 1240px;
+}
+/* line 23, sass/_partials/content.scss */
+.content section {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 1, sass/_partials/sidebar.scss */
-.sidebar {
-  float: right;
-  width: 20%;
-  position: relative;
-  bottom: 550px;
-  right: 0;
-}
-/* line 7, sass/_partials/sidebar.scss */
+/* line 2, sass/_partials/sidebar.scss */
 .sidebar ul {
   padding: 10px 18px;
 }
-/* line 9, sass/_partials/sidebar.scss */
+/* line 4, sass/_partials/sidebar.scss */
 .sidebar ul .widget {
   padding: 10px;
   background: #eeeef3;
   margin: 0 0 30px;
   border-radius: 5px;
 }
-/* line 14, sass/_partials/sidebar.scss */
+/* line 9, sass/_partials/sidebar.scss */
 .sidebar ul .widget .widgettitle {
   font-size: 27px;
   color: #ff9900;
 }
-/* line 20, sass/_partials/sidebar.scss */
+/* line 15, sass/_partials/sidebar.scss */
 .sidebar ul .widget ul li {
   font-size: 18px;
   line-height: 20px;
 }
-/* line 23, sass/_partials/sidebar.scss */
+/* line 18, sass/_partials/sidebar.scss */
 .sidebar ul .widget ul li a {
   text-decoration: none;
   color: #615561;
 }
-/* line 26, sass/_partials/sidebar.scss */
+/* line 21, sass/_partials/sidebar.scss */
 .sidebar ul .widget ul li a:hover {
   color: #cc879e;
 }

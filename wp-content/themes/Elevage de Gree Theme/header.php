@@ -18,25 +18,28 @@
 
 <div id="page" class="col-md-12">
     <!-- Informations du blog -->
-    <header>
-
-        <!-- Titre du blog -->
-        <h1>
-            <!-- Lien qui va permettre de retourner à la homepage quand on clique sur le titre du blog-->
-            <a href="<?php bloginfo('url'); ?>">
-                <?php bloginfo('name'); ?>
-            </a>
-        </h1>
-
-        <!--Menu-->
-        <?php wp_nav_menu(array(
-            'theme_location' => 'header-menu', /*Nom du menu (à choisir dans l'admin wordpress*/
-            'menu_class' => 'header_menu_class', /*Ajoute la class 'header_menu_class' au menu*/
-            'container' => 'nav')); /*Change la balise <div> en <nav>*/
-        ?>
-
-        <!--Description du blog -->
+    <header class="row">
+        <div class="row">
+            <!-- Titre du blog -->
+            <h1>
+                <!-- Lien qui va permettre de retourner à la homepage quand on clique sur le titre du blog-->
+                <a href="<?php bloginfo('url'); ?>">
+                    <?php bloginfo('name'); ?>
+                </a>
+            </h1>
+        </div>
+        <div class="row">
+            <!--Menu-->
+            <?php wp_nav_menu(array(
+                'theme_location' => 'header-menu', /*Nom du menu (à choisir dans l'admin wordpress*/
+                'menu_class' => 'header_menu_class', /*Ajoute la class 'header_menu_class' au menu*/
+                'container' => 'nav')); /*Change la balise <div> en <nav>*/
+            ?>
+        </div>
+        <div class="row">
+            <!--Description du blog -->
         <span class="description">
             <?php bloginfo('description'); ?>
         </span>
+        </div>
     </header>

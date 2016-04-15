@@ -18,7 +18,11 @@
     }
 }
 
-section{
-    max-width: 1140px;
-    margin: 0 auto;
+.content {
+    max-width: 1240px;
+    section {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 }
+
