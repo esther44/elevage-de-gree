@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+    padding: 20px;
+    background: $dark-grey;
+    margin-top: 32px !important;
+    a {
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    h1 {
+        font-family: SweetlyBroken serif;
+        font-size: 35px;
+        display: inline-block;
+        a {
+            color: $white;
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+    nav{
+        display: inline-block;
+        padding-left: 15px;
+        ul{
+            li{
+                &:first-child{
+                    padding-left: 0;
+                }
+                display: inline-block;
+                padding: 0 15px;
+                font-weight: bold;
+                font-size: 20px;
+                a{
+                    color: $orange;
+                    &:hover{
+                        color: $light-orange;
+                    }
+                }
+            }
+        }
+    }
+    .description{
+        font-size: 20px;
+        padding-top: 20px;
+        display: block;
+        color: $white;
+    }
+
+}

@@ -1,0 +1,17 @@
+.post {
+    padding: 10px;
+    background: $light-grey-2;
+    margin: 0 0 30px;
+    border-radius: 5px;
+    a{
+        color: $orange;
+        text-decoration: none;
+        &:hover{
+            color: $black;
+            text-decoration: none;
+        }
+    }
+    p {
+        color: $black;
+    }
+}

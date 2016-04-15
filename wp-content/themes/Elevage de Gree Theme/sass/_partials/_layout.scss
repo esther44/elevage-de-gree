@@ -1,0 +1,8 @@
+body {
+    background: $dark-grey !important;
+    #content {
+        background: $white;
+        position: relative;
+        @include contentboxshadow-grey();
+    }
+}
