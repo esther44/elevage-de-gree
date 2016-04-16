@@ -44,6 +44,9 @@
         </div>
         <div class="row">
             <!--Image en-tête-->
-            <img class="image_principale" src="<?php echo( get_header_image() ); ?>">
+            <!-- <img class="image_principale" src="--><?php //echo(get_header_image()); ?><!--">-->
+
+            <!-- Image à la Une-->
+            <?php the_post_thumbnail(); ?>
         </div>
     </header>

@@ -47,13 +47,16 @@ function raise_image_size_limit()
 add_filter('wp_thumbnail_creation_size_limit', 'raise_image_size_limit');
 
 //Image en-tête
-$args = array(
-    'flex-width' => true,
-    'width' => 1240,
-    'flex-height' => true,
-    'height' => 818,
-    'uploads' => true
-);
+//$args = array(
+//    'flex-width' => true,
+//    'width' => 1240,
+//    'flex-height' => true,
+//    'height' => 818,
+//    'uploads' => true
+//);
+//add_theme_support('custom-header', $args); // Ajouter les images à la une sur les pages
 
-add_theme_support('custom-header', $args);
+// Image à la Une
+add_theme_support( 'post-thumbnails' );
+
 ?>
