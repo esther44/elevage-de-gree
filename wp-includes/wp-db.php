@@ -1486,7 +1486,7 @@ class wpdb {
 				}
 			}
 
-			mysqli_real_connect( $this->dbh, $host, $this->dbuser, $this->dbpassword, null, $port, $socket, $client_flags );
+			@mysqli_real_connect( $this->dbh, $host, $this->dbuser, $this->dbpassword, null, $port, $socket, $client_flags );
 
 			if ( $this->dbh->connect_errno ) {
 				$this->dbh = null;
@@ -1512,7 +1512,7 @@ class wpdb {
 				}
 			}
 		} else {
-			$this->dbh = mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link, $client_flags );
+			$this->dbh = @mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link, $client_flags );
 		}
 
 		if ( ! $this->dbh && $allow_bail ) {

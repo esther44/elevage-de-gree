@@ -1,0 +1,18 @@
+/* mixins.scss */
+
+@mixin headerboxshadow-grey {
+    box-shadow: 0 1px 2px darken($light-grey, 20%);
+}
+
+@mixin headerboxshadow-pink {
+    box-shadow: 0 1px 2px darken($pink, 20%);
+}
+
+@mixin contentboxshadow-grey {
+    background: #14100c; /* Old browsers */
+    background: -moz-linear-gradient(left, #14100c 0%, #342f2a 49%, #342f2a 51%, #14100c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #14100c 0%, #342f2a 49%, #342f2a 51%, #14100c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #14100c 0%, #342f2a 49%, #342f2a 51%, #14100c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#14100c', endColorstr='#14100c', GradientType=1); /* IE6-9 */
+
+}

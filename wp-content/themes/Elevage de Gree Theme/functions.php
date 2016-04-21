@@ -33,7 +33,6 @@ function my_scripts_enqueue()
 {
     wp_register_script('bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), NULL, true);
     wp_register_style('bootstrap-css', get_template_directory_uri() . '/bootstrap/css/bootstrap.css', array(), NULL, 'all');
-
     wp_enqueue_script('bootstrap-js');
     wp_enqueue_style('bootstrap-css');
 }
@@ -58,5 +57,4 @@ add_filter('wp_thumbnail_creation_size_limit', 'raise_image_size_limit');
 
 // Image à la Une
 add_theme_support( 'post-thumbnails' );
-
 ?>

@@ -1,0 +1,28 @@
+.content_page {
+    max-width: 1240px;
+    margin: 0 auto;
+    .main_content {
+        margin: 0 auto;
+        .content {
+            color: $grey;
+            padding: 35px;
+            font-size: 20px;
+            line-height: 21px;
+            width: 75%;
+            span {
+                font-weight: bold;
+                font-size: 22px;
+                color: $orange;
+            }
+        }
+    }
+}
+
+.content {
+    max-width: 1240px;
+    section {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+

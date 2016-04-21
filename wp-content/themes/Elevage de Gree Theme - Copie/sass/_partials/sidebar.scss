@@ -1,0 +1,28 @@
+.sidebar {
+    ul {
+        .widget {
+            padding: 10px;
+            background: #eeeef3;
+            margin: 0 0 30px;
+            border-radius: 5px;
+            .widgettitle {
+                font-size: 27px;
+                color: $orange;
+
+            }
+            ul {
+                li {
+                    font-size: 18px;
+                    line-height: 20px;
+                    a {
+                        text-decoration: none;
+                        color: $grey;
+                        &:hover {
+                            color: $light-pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

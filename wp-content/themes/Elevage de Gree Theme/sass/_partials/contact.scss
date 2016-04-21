@@ -1,0 +1,10 @@
+.contact{
+    .btn-primary{
+        color: $orange;
+        border: $light-orange;
+        &:hover{
+            color: $light-orange;
+            border: $orange;
+        }
+    }
+}
