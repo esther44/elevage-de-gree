@@ -17,7 +17,7 @@
                 <!--sort_column=name » trier la liste par ordre alphabétique,-->
                 <!--optioncount=1? afficher le nombre de billets pour chaque catégorie. Si on avait pris le chiffre 0 à la place de 1, le nombre de billets ne s’afficherait pas.-->
                 <!--hierarchical=0? ne permet pas l’affichage des sous-catégories. Si vous voulez les voir apparaître, mettez 1 à la place de 0.-->
-                <ul> <?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=1'); ?> </ul>
+                <ul> <?php wp_list_categories("orderby=name&exclude=3,4,13&title_li=") ?> </ul>
             </li>
             <!--liste des pages du site -->
             <?php wp_list_pages('title_li=<h2>Pages</h2>'); ?>

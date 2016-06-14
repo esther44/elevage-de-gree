@@ -1,5 +1,7 @@
 body {
     background: $dark-grey !important;
+    display: inline-block;
+    width: 100%;
     #content {
         position: relative;
     }

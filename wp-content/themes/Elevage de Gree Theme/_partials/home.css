@@ -6,10 +6,10 @@ Error: Undefined variable: "$orange".
 2:     h2 a {
 3:         color: $orange;
 4:         text-decoration: none;
-5:         &:hover, &:focus, &:active {
-6:             text-decoration: none;
-7:         }
-8:     }
+5:         text-align: center;
+6:         display: block;
+7:         &:hover, &:focus, &:active {
+8:             text-decoration: none;
 
 Backtrace:
 C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/home.scss:3
@@ -75,4 +75,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 3 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/home.scss\A \A 1: .home_content {\A 2:     h2 a {\A 3:         color: $orange;\A 4:         text-decoration: none;\A 5:         &:hover, &:focus, &:active {\A 6:             text-decoration: none;\A 7:         }\A 8:     }"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 3 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/home.scss\A \A 1: .home_content {\A 2:     h2 a {\A 3:         color: $orange;\A 4:         text-decoration: none;\A 5:         text-align: center;\A 6:         display: block;\A 7:         &:hover, &:focus, &:active {\A 8:             text-decoration: none;"; }

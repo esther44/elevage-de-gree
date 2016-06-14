@@ -5,6 +5,9 @@
     <title><?php bloginfo('name') ?><?php if (is_404()) : ?> &raquo; <?php _e('Not Found') ?><?php elseif (is_home()) : ?> &raquo; <?php bloginfo('description') ?><?php else : ?><?php wp_title() ?><?php endif ?></title>
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>"/>
     <meta name="generator" content="WordPress <?php bloginfo('version'); ?>"/>
+    <meta name="alexaVerifyID" content="T_L_ZcfIeJwX85tKvgwswAh0fuQ"/>
+    <meta name="msvalidate.01" content="81662A7AB83699D5575C00A15FF822B5" />
+    <meta name="google-site-verification" content="ok9C3Ekf2O_mhSs-NBR7QDwkAcZRbY_sEwt3fkONb2g" />
     <!-- leave this for stats -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen"/>
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>"/>

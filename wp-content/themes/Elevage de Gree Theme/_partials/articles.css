@@ -3,15 +3,15 @@ Error: Undefined variable: "$light-grey-2".
         on line 5 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/articles.scss
 
 1: // listes articles
-2: .articles{
+2: .articles {
 3:     .post {
 4:         padding: 10px;
 5:         background: $light-grey-2;
 6:         margin: 0 0 30px;
 7:         border-radius: 5px;
-8:         a {
-9:             color: $orange;
-10:             text-decoration: none;
+8:         h1 {
+9:             font-size: 3rem;
+10:             a {
 
 Backtrace:
 C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/articles.scss:5
@@ -77,4 +77,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light-grey-2\".\A         on line 5 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/articles.scss\A \A 1: // listes articles\A 2: .articles{\A 3:     .post {\A 4:         padding: 10px;\A 5:         background: $light-grey-2;\A 6:         margin: 0 0 30px;\A 7:         border-radius: 5px;\A 8:         a {\A 9:             color: $orange;\A 10:             text-decoration: none;"; }
+  content: "Error: Undefined variable: \"$light-grey-2\".\A         on line 5 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/articles.scss\A \A 1: // listes articles\A 2: .articles {\A 3:     .post {\A 4:         padding: 10px;\A 5:         background: $light-grey-2;\A 6:         margin: 0 0 30px;\A 7:         border-radius: 5px;\A 8:         h1 {\A 9:             font-size: 3rem;\A 10:             a {"; }

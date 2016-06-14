@@ -18,6 +18,7 @@ function register_my_menus()
         )
     );
 }
+
 add_action('init', 'register_my_menus');
 
 //Retire la marge de la balise html
@@ -43,18 +44,10 @@ function raise_image_size_limit()
 {
     return -1;
 }
+
 add_filter('wp_thumbnail_creation_size_limit', 'raise_image_size_limit');
 
-//Image en-tête
-//$args = array(
-//    'flex-width' => true,
-//    'width' => 1240,
-//    'flex-height' => true,
-//    'height' => 818,
-//    'uploads' => true
-//);
-//add_theme_support('custom-header', $args); // Ajouter les images à la une sur les pages
-
 // Image à la Une
-add_theme_support( 'post-thumbnails' );
+add_theme_support('post-thumbnails');
+
 ?>

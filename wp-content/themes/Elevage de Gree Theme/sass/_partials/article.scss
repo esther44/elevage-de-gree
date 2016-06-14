@@ -1,23 +1,45 @@
 .article {
     background: transparent;
     margin-top: 25px;
-    .post{
+    text-align: center;
+    .post {
         a {
             color: $orange;
             text-decoration: none;
             text-transform: uppercase;
+            cursor: default;
             &:hover, &:active, &:focus {
                 color: $orange;
                 text-decoration: none;
             }
         }
-        h2{
+        h2 {
             margin-top: 0;
+            display: inline-block;
+        }
+        .annee {
+            font-size: 2.2rem;
+            vertical-align: top;
+            color: $light-grey-2;
+            padding-left: 15px;
         }
     }
 
+    .prev {
+        float: left;
+    }
+    .next {
+        float: right;
+    }
 
-    .prev_next a {
-        font-weight: bold;
+    .prev, .next {
+        font-size: 2.5rem;
+        color: $orange;
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: $white;
+            font-size: 2.2rem;
+        }
     }
 }

@@ -1,35 +1,23 @@
 /*
-Error: Undefined variable: "$orange".
-        on line 10 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss
+Error: Undefined variable: "$light-grey-2".
+        on line 5 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss
 
-5:             background: #eeeef3;
+1: .sidebar {
+2:     ul {
+3:         .widget {
+4:             padding: 10px;
+5:             background: $light-grey-2;
 6:             margin: 0 0 30px;
 7:             border-radius: 5px;
 8:             .widgettitle {
 9:                 font-size: 27px;
 10:                 color: $orange;
-11: 
-12:             }
-13:             ul {
-14:                 li {
-15:                     font-size: 18px;
 
 Backtrace:
-C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss:10
+C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss:5
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -100,4 +88,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 10 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss\A \A 5:             background: #eeeef3;\A 6:             margin: 0 0 30px;\A 7:             border-radius: 5px;\A 8:             .widgettitle {\A 9:                 font-size: 27px;\A 10:                 color: $orange;\A 11: \A 12:             }\A 13:             ul {\A 14:                 li {\A 15:                     font-size: 18px;"; }
+  content: "Error: Undefined variable: \"$light-grey-2\".\A         on line 5 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/sidebar.scss\A \A 1: .sidebar {\A 2:     ul {\A 3:         .widget {\A 4:             padding: 10px;\A 5:             background: $light-grey-2;\A 6:             margin: 0 0 30px;\A 7:             border-radius: 5px;\A 8:             .widgettitle {\A 9:                 font-size: 27px;\A 10:                 color: $orange;"; }

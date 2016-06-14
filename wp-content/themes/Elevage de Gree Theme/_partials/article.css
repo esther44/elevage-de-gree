@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$orange".
-        on line 6 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/article.scss
+        on line 7 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/article.scss
 
-1: .article {
 2:     background: transparent;
 3:     margin-top: 25px;
-4:     .post{
-5:         a {
-6:             color: $orange;
-7:             text-decoration: none;
-8:             text-transform: uppercase;
-9:             &:hover, &:active, &:focus {
-10:                 color: $orange;
-11:                 text-decoration: none;
+4:     text-align: center;
+5:     .post {
+6:         a {
+7:             color: $orange;
+8:             text-decoration: none;
+9:             text-transform: uppercase;
+10:             cursor: default;
+11:             &:hover, &:active, &:focus {
+12:                 color: $orange;
 
 Backtrace:
-C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/article.scss:6
+C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/article.scss:7
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -89,4 +89,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 6 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/article.scss\A \A 1: .article {\A 2:     background: transparent;\A 3:     margin-top: 25px;\A 4:     .post{\A 5:         a {\A 6:             color: $orange;\A 7:             text-decoration: none;\A 8:             text-transform: uppercase;\A 9:             &:hover, &:active, &:focus {\A 10:                 color: $orange;\A 11:                 text-decoration: none;"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 7 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/article.scss\A \A 2:     background: transparent;\A 3:     margin-top: 25px;\A 4:     text-align: center;\A 5:     .post {\A 6:         a {\A 7:             color: $orange;\A 8:             text-decoration: none;\A 9:             text-transform: uppercase;\A 10:             cursor: default;\A 11:             &:hover, &:active, &:focus {\A 12:                 color: $orange;"; }

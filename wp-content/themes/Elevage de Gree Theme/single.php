@@ -6,7 +6,7 @@
 <!--Contenus-->
 <div class="content row center-block article">
     <!--Contenus-->
-    <section class="col-md-9 row center-block">
+    <section class="col-md-12 row center-block">
         <!--Si il y a des articles, parmi les articles, afficher celui/ceux qu'il faut-->
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
@@ -17,24 +17,22 @@
                             <?php the_title(); ?>
                         </a>
                     </h2>
-                    <!--Afficher informations postmetadata (date, auteur, catégorie, commentaires, auteur...)-->
-                    <!--                        <p class="postmetadata">-->
-                    <!--                            --><?php //the_time('j F Y') ?><!-- par -->
-                    <?php //the_author() ?><!-- |-->
-                    <!--                            Cat&eacute;gorie: --><?php //the_category(', ') ?>
+
+                    <?php foreach ((get_the_category()) as $cat) {
+                        if (!($cat->cat_ID == '10' || $cat->cat_ID == '3' || $cat->cat_ID == '4' || $cat->cat_ID == '12')) echo '<span class="annee">' . $cat->cat_name . '</span>';
+                    } ?>
                     <!--                        </p>-->
                     <!--Afficher le contenu de l'article -->
                     <div class="post_content">
                         <?php the_content(); ?>
-                        <!--Affiche les commentaires des articles (du fichier comments.php)-->
-                        <!--                            <div class="comments-template"> -->
-                        <?php //comments_template(); ?><!-- </div>-->
                     </div>
                 </article>
             <?php endwhile; ?>
-            <div class="prev_next">
+            <div class="prev">
                 <!--nom des articles suivants et précédents-->
-                <?php previous_post_link('&laquo; %link', '%title', true); ?> - <?php next_post_link('%link &raquo;', '%title', true); ?>
+                <?php previous_post_link('&laquo; %link', '%title', true); ?></div>
+            <div class="next">
+                <?php next_post_link('%link &raquo;', '%title', true); ?>
             </div>
             <!--Lien permettant de modifier la page dans l'administration-->
             <?php edit_post_link('Modifier cette page', '<p>', '</p>'); ?>
@@ -44,7 +42,7 @@
     </section>
 
     <!--Récupère la Sidebar-->
-    <?php get_sidebar(); ?>
+    <!--    --><?php //get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
 </body>

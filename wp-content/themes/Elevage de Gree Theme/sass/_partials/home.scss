@@ -2,17 +2,18 @@
     h2 a {
         color: $orange;
         text-decoration: none;
+        text-align: center;
+        display: block;
         &:hover, &:focus, &:active {
             text-decoration: none;
         }
     }
-
-    h2, p {
-        text-align: center;
-    }
-
-    p{
-        color: #eeeef3;
-        font-size: 18px;
+    .post_content {
+        padding-top: 20px;
+        h2, p {
+            text-align: center;
+            color: $light-grey-2;
+            font-size: 18px;
+        }
     }
 }

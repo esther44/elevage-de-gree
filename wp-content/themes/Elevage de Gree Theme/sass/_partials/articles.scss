@@ -1,20 +1,62 @@
 // listes articles
-.articles{
+.articles {
     .post {
         padding: 10px;
         background: $light-grey-2;
         margin: 0 0 30px;
         border-radius: 5px;
-        a {
-            color: $orange;
-            text-decoration: none;
-            &:hover {
-                color: $black;
+        h1 {
+            font-size: 3rem;
+            a {
+                color: $orange;
                 text-decoration: none;
+                &:hover {
+                    color: $dark-grey;
+                    text-decoration: none;
+                }
             }
         }
-        p {
-            color: $grey-3;
-            font-size: 24px;
+        h2 {
+            color: $dark-grey;
+            font-size: 2.5rem;
+            margin: 0;
         }
-    }}
+    }
+    .annees {
+        .categories {
+            text-align: center;
+            color: $dark-grey;
+            li {
+                display: inline-block;
+
+                text-decoration: none;
+                a {
+                    display: inline-block;
+                    background: $light-grey-2;
+                    color: $orange;
+                    padding: 7px;
+                    font-size: 2.5rem;
+                    line-height: 2.5rem;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                    text-decoration: none;
+                }
+            }
+            li.current-cat {
+                a {
+                    font-weight: bold;
+                    color: $orange;
+                    background: $grey-3;
+                }
+
+            }
+            li:not(.current-cat):hover {
+                a{
+                    color: $grey-3;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}

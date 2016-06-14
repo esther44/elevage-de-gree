@@ -1,15 +1,15 @@
 /*
-Error: Undefined variable: "$orange".
+Error: Undefined variable: "$white".
         on line 3 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/contact.scss
 
 1: .contact{
-2:     .btn-primary{
-3:         color: $orange;
-4:         border: $light-orange;
-5:         &:hover{
-6:             color: $light-orange;
-7:             border: $orange;
-8:         }
+2:     label{
+3:         color: $white;
+4:     }
+5: 
+6:     h2{
+7:         color: $orange;
+8:         text-align: center;
 
 Backtrace:
 C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/contact.scss:3
@@ -75,4 +75,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 3 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/contact.scss\A \A 1: .contact{\A 2:     .btn-primary{\A 3:         color: $orange;\A 4:         border: $light-orange;\A 5:         &:hover{\A 6:             color: $light-orange;\A 7:             border: $orange;\A 8:         }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 3 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/contact.scss\A \A 1: .contact{\A 2:     label{\A 3:         color: $white;\A 4:     }\A 5: \A 6:     h2{\A 7:         color: $orange;\A 8:         text-align: center;"; }

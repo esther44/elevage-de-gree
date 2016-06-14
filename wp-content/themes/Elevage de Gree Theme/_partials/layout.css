@@ -4,10 +4,11 @@ Error: Undefined variable: "$dark-grey".
 
 1: body {
 2:     background: $dark-grey !important;
-3:     #content {
-4:         position: relative;
-5:     }
-6: }
+3:     display: inline-block;
+4:     width: 100%;
+5:     #content {
+6:         position: relative;
+7:     }
 
 Backtrace:
 C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss:2
@@ -66,4 +67,4 @@ C:/Ruby/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/ada
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-grey\".\A         on line 2 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss\A \A 1: body {\A 2:     background: $dark-grey !important;\A 3:     #content {\A 4:         position: relative;\A 5:     }\A 6: }"; }
+  content: "Error: Undefined variable: \"$dark-grey\".\A         on line 2 of C:/UwAmp/www/elevage-de-gree/wp-content/themes/Elevage de Gree Theme/sass/_partials/layout.scss\A \A 1: body {\A 2:     background: $dark-grey !important;\A 3:     display: inline-block;\A 4:     width: 100%;\A 5:     #content {\A 6:         position: relative;\A 7:     }"; }

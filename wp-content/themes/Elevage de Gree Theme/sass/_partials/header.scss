@@ -40,6 +40,12 @@ header {
                     }
                 }
             }
+            li.current-menu-item {
+                a {
+                    color: $light-orange;
+                    font-size: 2.4rem;
+                }
+            }
         }
     }
     .description {
@@ -48,8 +54,11 @@ header {
         display: block;
         color: $white;
     }
-    .image_principale {
-        opacity: 0.8;
-        padding-top: 25px;
+    img {
+        margin: 25px auto;
+        display: inline-block;
+        width: auto;
+        height: auto;
     }
+
 }

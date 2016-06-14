@@ -2,7 +2,7 @@
     ul {
         .widget {
             padding: 10px;
-            background: #eeeef3;
+            background: $light-grey-2;
             margin: 0 0 30px;
             border-radius: 5px;
             .widgettitle {
@@ -17,8 +17,8 @@
                     a {
                         text-decoration: none;
                         color: $grey;
-                        &:hover {
-                            color: $light-pink;
+                        &:hover, &:active, &:focus {
+                            color: $light-orange;
                         }
                     }
                 }

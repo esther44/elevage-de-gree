@@ -1,10 +1,21 @@
 .contact{
-    .btn-primary{
+    label{
+        color: $white;
+    }
+
+    h2{
         color: $orange;
+        text-align: center;
+        margin: 0;
+    }
+    .btn-primary{
+        color: $white;
+        font-weight: bold;
+        background: $orange;
         border: $light-orange;
-        &:hover{
-            color: $light-orange;
+        &:hover, &:active, &:focus{
             border: $orange;
+            background: $light-orange;
         }
     }
 }

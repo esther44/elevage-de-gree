@@ -1,5 +1,6 @@
 <!--Page accueil-->
 
+<div class="home">
 <!--Récupère le header-->
 <?php get_header(); ?>
 
@@ -27,6 +28,6 @@
     </section>
 </div>
 <?php get_footer(); ?>
-
+</div>
 </body>
 </html>
